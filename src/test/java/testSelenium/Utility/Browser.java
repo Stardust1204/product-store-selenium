@@ -6,10 +6,10 @@ import org.junit.jupiter.api.Timeout;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
 import java.time.Duration;
 
 public class Browser {
+    
     public static WebDriver driver;
     public static WebDriverWait wait;
 
@@ -19,16 +19,12 @@ public class Browser {
         driver = new ChromeDriver();
         driver.get("https://www.demoblaze.com/index.html");
         driver.manage().window().maximize();
-
         wait = new WebDriverWait(driver, Duration.ofSeconds(20l));
-
     }
 
     @AfterEach
     public void closeBrowser() {
-
         driver.quit();
     }
-
 
 }
