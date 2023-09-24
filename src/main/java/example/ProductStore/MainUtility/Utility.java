@@ -12,12 +12,6 @@ public class Utility {
 
     public static void writeText(WebElement webElement, String inputContent) {
         webElement.sendKeys(inputContent);
-
-    }
-
-    public void waitPageLoad() {
-
-
     }
 
 }
