@@ -4,9 +4,7 @@ import example.ProductStore.Pages.ProductStore;
 import org.junit.jupiter.api.Test;
 import testSelenium.Utility.Browser;
 
-
 public class TestProductStoreCheckOut extends Browser {
-
 
     @Test
     public void createCheckOut() {
@@ -14,13 +12,7 @@ public class TestProductStoreCheckOut extends Browser {
                .signIn()
                .logIn()
                .addProductToCart()
-               .checkOut()
-
-       ;
-
-
-
+               .checkOut();
     }
-
 
 }
