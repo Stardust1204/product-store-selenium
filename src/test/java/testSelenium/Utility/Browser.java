@@ -14,7 +14,7 @@ public class Browser {
 
     @BeforeEach
     public void openBrowser() {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\calh\\Downloads\\chromedriver-win32\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\calh\\Downloads\\chromedriver-win32\\chromedriver-win32\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.get("https://www.demoblaze.com/index.html");
         driver.manage().window().maximize();
