@@ -3,8 +3,8 @@ package example.ProductStore.PageValues;
 public class Constant {
 
     //User Details
-    public static final String USER_NAME = "UserXYZplusPro";
-    public static final String PASS_WORD = "UserXYZplusPro";
+    public static final String USER_NAME = "3444rt5yt5yjy65";
+    public static final String PASS_WORD = "868676756";
 
     //SignUp Details
     public static final String U_NAME_SIGN_IN = "Bob";

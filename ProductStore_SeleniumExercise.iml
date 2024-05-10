@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module version="4">
-  <component name="NewModuleRootManager">
-    <content url="file://$MODULE_DIR$">
+  <component name="AdditionalModuleElements">
+    <content url="file://$MODULE_DIR$" dumb="true">
+      <excludeFolder url="file://$MODULE_DIR$/.idea/sonarlint" />
       <excludeFolder url="file://$MODULE_DIR$/.idea/sonarlint/issuestore/4" />
       <excludeFolder url="file://$MODULE_DIR$/.idea/sonarlint/issuestore/5" />
       <excludeFolder url="file://$MODULE_DIR$/.idea/sonarlint/issuestore/7" />
@@ -11,8 +12,10 @@
       <excludeFolder url="file://$MODULE_DIR$/.idea/sonarlint/securityhotspotstore/5" />
       <excludeFolder url="file://$MODULE_DIR$/.idea/sonarlint/securityhotspotstore/7" />
       <excludeFolder url="file://$MODULE_DIR$/.idea/sonarlint/securityhotspotstore/a" />
-      <excludeFolder url="file://$MODULE_DIR$/.idea/sonarlint" />
       <excludeFolder url="file://$MODULE_DIR$/.idea/sonarlint/securityhotspotstore/c" />
     </content>
+  </component>
+  <component name="SonarLintModuleSettings">
+    <option name="uniqueId" value="56c169d2-1df1-47c7-8bbc-2f8a598a8e06" />
   </component>
 </module>

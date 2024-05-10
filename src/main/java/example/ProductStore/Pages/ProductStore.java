@@ -94,10 +94,14 @@ public class ProductStore extends Utility {
         alert.accept();
         driver.switchTo().defaultContent();
 
-        if (closeBtn.isDisplayed()) {
-            closeBtn.click();
+        try {
+            if (closeBtn.isDisplayed()) {
+                closeBtn.click();
+            }
+        } catch (Exception e) {
+            System.out.println("Element not visible");
+            waitElement(loginBtn, wait);
         }
-
 
         return new ProductStore(this.driver, this.wait);
     }

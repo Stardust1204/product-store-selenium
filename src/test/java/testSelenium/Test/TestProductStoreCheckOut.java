@@ -7,20 +7,13 @@ import testSelenium.Utility.Browser;
 
 public class TestProductStoreCheckOut extends Browser {
 
-
     @Test
     public void createCheckOut() {
        new ProductStore(driver, wait)
                .signIn()
                .logIn()
                .addProductToCart()
-               .checkOut()
-
-       ;
-
-
-
+               .checkOut();
     }
-
 
 }
